@@ -1,0 +1,8 @@
+[Unit]
+Description=Decryption
+
+[Service]
+ExecStart=/home/client/bin/decrypt.sh
+
+[Install]
+WantedBy=multi-user.target
