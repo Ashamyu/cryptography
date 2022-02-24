@@ -1,8 +1,8 @@
 [Unit]
-Description=Decryption
+Description=Encryption
 
 [Service]
-ExecStart= /home/client/bin/crypt.sh
+ExecStart= /home/client/master/bin/crypt.sh
 
 [Install]
 WantedBy=multi-user.target

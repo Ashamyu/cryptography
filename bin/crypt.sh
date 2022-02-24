@@ -2,18 +2,18 @@
 
 while true;
 do
-	cd ~/src
+	cd ~/src/cryptography/
 	dir=$(pwd)
 
-	if [ "$(ls -A /home/client/src/toCrypt)" ]; then
-		for file in $dir/src/toCrypt/*; do
+	if [ "$(ls -A /home/client/src/cryptography/toCrypt)" ]; then
+		for file in $dir/src/cryptography/toCrypt/*; do
 	    		txt="$(basename "$file")"
-			mv $dir/src/toCrypt/$txt $dir/src/toCrypt/tocrypt.txt
+			mv $dir/src/cryptography/toCrypt/$txt $dir/src/cryptography/toCrypt/tocrypt.txt
 		
-			cd $dir/src
-			python3 encrypt.py
+			cd $dir/src/cryptography/bin
+			python3 crypt.py
 
-			cd $dir/toCrypt
+			cd $dir/src/cryptography/toCrypt
 			rm $txt
 		done
 	fi
