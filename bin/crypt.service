@@ -2,7 +2,7 @@
 Description=Encryption
 
 [Service]
-ExecStart= /home/client/master/bin/crypt.sh
+ExecStart= /home/client/cryptography/bin/crypt.sh
 
 [Install]
 WantedBy=multi-user.target
