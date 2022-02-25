@@ -14,6 +14,8 @@ Clone the git repository onto your computer or download the zip file and extract
 
 ### Installing
 
+First of all, when you download the zip you must extract the folder 'cryptography' in your "/Home/client/" because the path in my codes refers to the Home repository.
+
 You just need to execute the file install.sh into your terminal and the job is done with the code : ./install.sh
 
 note:*Sometimes you need to give the file executable rights for it to be able to install on your pc, the code to fix that is :chmod +x install.sh*
