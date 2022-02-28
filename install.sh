@@ -17,14 +17,14 @@ else
 	sudo git clone https://github.com/Ashamyu/cryptography.git
 fi
 
-cd ~/master/bin
+cd ~/cryptography/bin
 sudo chmod +x crypt.sh #give executable rights
 sudo chmod +x decrypt.sh #give executable rights
 
-sudo cp -f ~/master/bin/crypt.service /etc/systemd/system/crypt.service
+sudo cp -f ~/cryptography/bin/crypt.service /etc/systemd/system/crypt.service
 sudo chmod 644 /etc/systemd/system/crypt.service
 
-sudo cp -f ~/master/bin/decrypt.service /etc/systemd/system/decrypt.service
+sudo cp -f ~/cryptography/bin/decrypt.service /etc/systemd/system/decrypt.service
 sudo chmod 644 /etc/systemd/system/decrypt.service
 
 sudo sudo systemctl start crypt.service
