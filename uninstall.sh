@@ -1,3 +1,3 @@
 #! /bin/bash
 
-sudo rm -rf /Home/client/src
+sudo rm -rf ~/src
