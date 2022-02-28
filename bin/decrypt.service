@@ -2,7 +2,7 @@
 Description=Decryption
 
 [Service]
-ExecStart=/home/client/cryptography/bin/decrypt.sh
+ExecStart=/home/client/src/cryptography/bin/decrypt.sh
 
 [Install]
 WantedBy=multi-user.target
