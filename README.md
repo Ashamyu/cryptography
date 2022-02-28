@@ -28,6 +28,8 @@ Note: My code run through the path "/home/client/.."- please be sure that your s
 
 To uninstall, run the script 'uninstall.sh'. This will remove the folder 'src' installed on your pc with all the codes.
 
+Note: *Remember to give this file executable rights.
+
 ## Built With
 
 * [Bash Script]
